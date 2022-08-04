@@ -1,5 +1,5 @@
 Ripple: Your Mental Health Ally. 
-I designed the UI/UX in Figma, then transferred the designs and images onto the website. 
+First, I designed the UI/UX in Figma, then transferred the designs and images onto the website frontend. 
 I also utilized the Google Cloud Platform Dialogflow Tool to create the chatbot, which I then integrated within the site. 
 
 Some things Im working on adding: 
