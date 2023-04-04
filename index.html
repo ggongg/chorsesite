@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ripple</title>
+    <title>C-Horse</title>
 
     <!-- 
     - favicon
@@ -29,7 +29,7 @@
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <df-messenger
     intent="WELCOME"
-    chat-title="Ripple"
+    chat-title="C-Horse"
     agent-id="b6a826fb-c2e6-4f0a-a3ee-cfdcfd6f8324"
     language-code="en"
   ></df-messenger>
@@ -41,7 +41,7 @@
     <header class="header" data-header>
       <div class="container">
         <a href="#" class="logo">
-          <img src="./assets/images/Logo.png" alt="CryptoGal logo" />
+          <img src="./assets/images/Logo.png" alt="C-Horselogo" />
         </a>
 
         <button class="menu-toggle-btn" data-nav-toggle-btn>
@@ -59,9 +59,10 @@
             </li>
 
             <li>
-              <a href="#blog" class="navbar-link">Blog</a>
+              <a href="#slides" class="navbar-link">Slides</a>
             </li>
 
+            
             <li>
               <a href="#contact" class="navbar-link">Contact Us</a>
             </li>
@@ -76,7 +77,7 @@
       </div>
     </header>
 
-    <main>
+    <!-- <main>
       <article>
         <!-- 
         - HERO
@@ -85,18 +86,64 @@
         <section class="hero" id="hero">
           <div class="container">
             <div class="hero-content">
-              <h1 class="h1 hero-title">Your Mental Health Ally</h1>
+              <h1 class="h1 hero-title">Programming Language for Children </h1>
 
               <p class="hero-text">
-                Small chats for big feelings.
+                Group 22 for CS3307
               </p>
 
               <p class="form-text">
-                <span>👩🏾‍💻</span> To get started, click on the blue icon in the
-                bottom right of this screen
-              </p>
+                <span>👩🏾‍💻</span> To get started, read the instructions below.
+              </p> -->
 
-       
+              
+
+              <!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Embedding PDF in HTML</title>
+</head>
+<body>
+	<embed src="./assets/images/C-Horse.pdf" type="application/pdf" width="595" height="842">
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Embedding PDF in HTML</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.embed-container {
+			width: 595pt; /* adjust as needed */
+			height: 842pt; /* adjust as needed */
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+      margin-left: 200px;
+		}
+		.embed-container embed {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="embed-container">
+		<embed src="./assets/images/C-Horse.pdf" type="application/pdf" >
+	</div>
+</body>
+</html>
+
+
+<!--        
+
+  
 
                 <button type="submit" class="btn btn-primary">
                   Get Started
@@ -108,7 +155,7 @@
               <img src="./assets/images/hero-banner.png" alt="Hero image" />
             </figure>
           </div>
-        </section>
+        </section> -->
 
         <!-- 
         - ABOUT
@@ -121,10 +168,7 @@
             </div>
             <h2 class="h2 about-title">Our Mission</h2>
             <p class="about-text">
-              Meet Ripple, your personal mental health ally that helps you get
-              back to feeling like yourself. Ripple is easy to talk to and fits
-              right into your life, whenever you want to chat. There’s no such
-              thing as appointments or waiting rooms here.
+              Meet C-Horse, prorgamming language for children. C-Horse is easy to use and and learn. It is a great way to introduce children to programming. 
             </p>
           </div>
 
@@ -134,7 +178,7 @@
               </div>
               <h2 class="h2 about-title">Our Features</h2>
               <p class="about-text">
-                Currently our chat bot has the following features. If you have
+                Currently our programming language has the following features. If you have
                 requests for other features or general feedback, please feel free
                 to reach out to us by filling out the form at the bottom of the page.
               </p>
@@ -146,10 +190,9 @@
                   <div class="card-icon">
                     <ion-icon name="thumbs-up"></ion-icon>
                   </div>
-                  <h3 class="h3 card-title">Activity Recommendation</h3>
+                  <h3 class="h3 card-title">Simple Math & Operations</h3>
                   <p class="card-text">
-                    Ability to recommend activities based on the user's current
-                    mood
+                    Ability to use C-horse to calculate simple math equations. Ability to calculate additional operations.  
                   </p>
                 </div>
               </li>
@@ -159,10 +202,9 @@
                   <div class="card-icon">
                     <ion-icon name="trending-up"></ion-icon>
                   </div>
-                  <h3 class="h3 card-title">Resource Guidance</h3>
+                  <h3 class="h3 card-title">Making Decisions and Repeating Actions.  </h3>
                   <p class="card-text">
-                    Ability to guide user to scheduling appointments with
-                    medical providers 
+                    Making Decisions and Repeating Actions based on the given conditions provided by the user.
                   </p>
                 </div>
               </li>
@@ -172,9 +214,9 @@
                   <div class="card-icon">
                     <ion-icon name="shield-checkmark"></ion-icon>
                   </div>
-                  <h3 class="h3 card-title">Respect for Privacy</h3>
+                  <h3 class="h3 card-title">Remembering & Recalling Things</h3>
                   <p class="card-text">
-                    All conversations with Ripple are confidential & secure
+                    Ability to remember and recall things. (variables)
                   </p>
                 </div>
               </li>
@@ -184,9 +226,9 @@
                   <div class="card-icon">
                     <ion-icon name="server"></ion-icon>
                   </div>
-                  <h3 class="h3 card-title">Always Accessible</h3>
+                  <h3 class="h3 card-title">Repeating Actions and Remembering Recipes</h3>
                   <p class="card-text">
-                    Receive mental health support anytime, anywhere
+                    Repeating Actions and Remmebering Recipes. Follow Recipes.
                   </p>
                 </div>
               </li>
@@ -203,7 +245,7 @@
             <h2 class="h2 section-title">Awesome Features</h2>
 
             <p class="section-text">
-              Activity Recommendation, Resource Guidance, Respect for Privacy, Always Accesible. 
+              Math, Remembering Things, Making Decisions, Repeating Actions, and more.
             </p>
 
             <div class="features-wrapper">
@@ -226,15 +268,15 @@
                 </h3>
 
                 <p class="features-content-text">
-                  Ripple is a mental health chatbot trained to provide guidance and support for topics including but not limited to:
+                  C-Horse is a programming language to assist you with: 
                 </p>
 
                 <div class="btn-group">
-                  <button class="btn btn-primary">Anxiety</button>
-                  <button class="btn btn-primary">Depression</button>
-                  <button class="btn btn-primary">Stress</button>
-                  <button class="btn btn-primary">Burnout</button>
-                  <button class="btn btn-primary">Loneliness</button>
+                  <button class="btn btn-primary">Math</button>
+                  <button class="btn btn-primary">Remember & Recall</button>
+                  <button class="btn btn-primary">Make Decisions</button>
+                  <button class="btn btn-primary">Repeat Actions</button>
+                  <button class="btn btn-primary">Follow Recipes</button>
                 </div>
 
               </div>
@@ -256,32 +298,32 @@
                 </p>
 
                 <h3 class="features-content-title">
-                  Your mental health companion
+                  The programming language for children
                 </h3>
 
                 <p class="features-content-text">
-                  Get started with Ripple by clicking on the icon at the bottom right of the page!
+                  Get started with C-horse!
                 </p>
 
                 <ul class="features-list">
                   <li class="features-list-item">
                     <ion-icon name="megaphone-outline"></ion-icon>
-                    <p>Share your emotions with Ripple</p>
+                    <p>Use C-Horse to calculate maths & operations, recall & remember variables</p>
                   </li>
 
                   <li class="features-list-item">
                     <ion-icon name="rocket-outline"></ion-icon>
-                    <p>Get guidance and resource recommendations</p>
+                    <p>Make decisions</p>
                   </li>
 
                   <li class="features-list-item">
                     <ion-icon name="wifi-outline"></ion-icon>
-                    <p>Make informed decisions with newfound knowledge</p>
+                    <p>Repeat Actions</p>
                   </li>
 
                   <li class="features-list-item">
                       <ion-icon name="layers-outline"></ion-icon>
-                      <p>Build your knowledge and network</p>
+                      <p>Follow Recipes</p>
                     </li>
   
 
@@ -293,154 +335,10 @@
           </div>
         </section>
 
-        <!-- 
-        - BLOG
-      -->
-
-        <section class="blog" id="blog">
-          <div class="container">
-            <h2 class="h2 section-title">Latest News</h2>
-
-            <p class="section-text">
-              View the latest news and blogs about mental health!
-            </p>
-
-            <ul class="blog-list">
-              <li>
-                <div class="blog-card">
-                  <figure class="blog-banner">
-                    <img src="./assets/images/art.jpg" alt="art" />
-                  </figure>
-
-                  <div class="blog-meta">
-                    <span>
-                      <ion-icon name="calendar-outline"></ion-icon>
-
-                      <time datetime="2022-05-27">may 27 2022</time>
-                    </span>
-
-                    <span>
-                      <ion-icon name="person-outline"></ion-icon>
-
-                      <p>CNBCTV18.com</p>
-                    </span>
-                  </div>
-
-                  <h3 class="blog-title">
-                    The Importance of Mental Health
-                  </h3>
-
-                  <p class="blog-text">
-                    Mental health is a huge issue in the United States and there
-                    are shocking statistics to prove it. When we consider the
-                    fact that the Centers for Disease Control and Prevention
-                    (CDC) estimates that 1 in 5 adults experience at least one
-                    mental health condition every year, it’s hard to deny that
-                    we need to be making mental health awareness more of a
-                    priority.
-                  </p>
-
-                  <a
-                    href="https://www.talkspace.com/blog/why-is-mental-health-important/"
-                    class="blog-link-btn"
-                  >
-                    <span>Learn More</span>
-
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="blog-card">
-                  <figure class="blog-banner">
-                    <img src="./assets/images/visual.jpg" alt="visual" />
-                  </figure>
-
-                  <div class="blog-meta">
-                    <span>
-                      <ion-icon name="calendar-outline"></ion-icon>
-
-                      <time datetime="2021-05-30">may 30 2021</time>
-                    </span>
-
-                    <span>
-                      <ion-icon name="person-outline"></ion-icon>
-
-                      <p>Emily Guy Birken</p>
-                    </span>
-                  </div>
-
-                  <h3 class="blog-title">About Mental Health</h3>
-
-                  <p class="blog-text">
-                    Mental health includes our emotional, psychological, and
-                    social well-being. It affects how we think, feel, and act.
-                    It also helps determine how we handle stress, relate to
-                    others, and make healthy choices.1 Mental health is
-                    important at every stage of life, from childhood and
-                    adolescence through adulthood.
-                  </p>
-
-                  <a
-                    href="https://www.cdc.gov/mentalhealth/learn/index.htm#:~:text=It%20affects%20how%20we%20think,others%2C%20and%20make%20healthy%20choices.&text=Mental%20health%20is%20important%20at,childhood%20and%20adolescence%20through%20adulthood."
-                    class="blog-link-btn"
-                  >
-                    <span>Learn More</span>
-
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="blog-card">
-                  <figure class="blog-banner">
-                    <img src="./assets/images/bitcoin.jpg" alt="bitcoin" />
-                  </figure>
-
-                  <div class="blog-meta">
-                    <span>
-                      <ion-icon name="calendar-outline"></ion-icon>
-
-                      <time datetime="2021-11-17">November 17 2021</time>
-                    </span>
-
-                    <span>
-                      <ion-icon name="person-outline"></ion-icon>
-
-                      <p>April Miller</p>
-                    </span>
-                  </div>
-
-                  <h3 class="blog-title">
-                    Benefits of Good Mental Health
-                  </h3>
-
-                  <p class="blog-text">
-                    Just as physical fitness helps our bodies to stay strong,
-                    mental fitness helps us to achieve and sustain a state of
-                    good mental health. When we are mentally healthy, we enjoy
-                    our life and environment, and the people in it. We can be
-                    creative, learn, try new things, and take risks. We are
-                    better able to cope with difficult times in our personal and
-                    professional lives.
-                  </p>
-
-                  <a
-                    href="https://toronto.cmha.ca/documents/benefits-of-good-mental-health/"
-                    class="blog-link-btn"
-                  >
-                    <span>Learn More</span>
-
-                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-
+        <div class="container">
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQcrcrNsygt26dSlefMHTdZlmTTs2mwwDP5yscdIga8o8oXzU91nalR2lxArwG56p2DYqN22qMJYU4J/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        
         <!-- 
       - CONTACT
     -->
@@ -450,7 +348,7 @@
             <h2 class="h2 section-title">Contact Us</h2>
 
             <p class="section-text">
-              Any questions? Want to learn more about Ripple? Send us a message
+              Any questions? Want to learn more about C-Horse? Send us a message
               here!
             </p>
 
@@ -512,7 +410,7 @@
                   <a href="#" class="contact-link">
                     <ion-icon name="globe-outline"></ion-icon>
 
-                    <span>: www.ripple.com</span>
+                    <span>: www.C-Horse.com</span>
                   </a>
                 </li>
 
@@ -553,7 +451,7 @@
             </a>
 
             <p class="footer-text">
-              Ripple is a supportive mentalhealth chatbot.
+              C-Horse is the childrens programming language.
             </p>
 
             <ul class="social-list">
@@ -664,7 +562,7 @@
       <div style="background-color: #5a4fdc;" class="footer-bottom">
         <div class="container">
           <p class="copyright">
-            &copy; 2022 <a href="">Ripple</a>. All Right Reserved
+            &copy; Group 22 2023 <a href=""><C-Horse></C-Horse></a>. All Right Reserved
           </p>
         </div>
       </div>
